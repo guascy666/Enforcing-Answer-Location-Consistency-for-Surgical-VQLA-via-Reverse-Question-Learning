@@ -2,7 +2,7 @@
 
 Hi, this is the code repository for "Enforcing Answer-Location Consistency for Surgical Visual Question Localized-Answering via Reverse Question Learning" (Accepted by ACM MM 2026) in PyTorch.
 
-![avatar](https://github.com/guascy666/Enforcing-Answer-Location-Consistency-for-Surgical-VQLA-via-Reverse-Question-Learning/model.png)
+![avatar](https://github.com/guascy666/Enforcing-Answer-Location-Consistency-for-Surgical-VQLA-via-Reverse-Question-Learning/blob/main/model.png)
 
 In this paper, we propose a novel surgical VQLA framework to enforce the semantic consistency between predicted answers and their corresponding visual locations. Specifically, we introduce a reverse question learning module, which projects predicted answers, locations and visual contexts back into the question embedding space to build joint semantic constraints for regularization. Besides, we design a contrastive learning-based global-local alignment module to align whole images with question-related local patches, helping the model capture fine-grained visual cues. We validate our method on EndoVis-18-VQLA, EndoVis-17-VQLA and our in-house SGH-VQLA dataset, and it outperforms existing state-of-the-art surgical VQLA methods.
 
